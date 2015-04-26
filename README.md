@@ -1,8 +1,8 @@
 # Web Workshop Boilerplate
 
-1. Clone the repo: `git clone https://github.com/lynnandtonic/workshop-boilerplate.git`
+1. Clone the repo: `git clone <link to repo>`
 
-2. Go into the repo's directory: `cd workshop-boilerplate`
+2. Go into the repo's directory: `cd <repo name>`
 
 3. Make some changes.
 

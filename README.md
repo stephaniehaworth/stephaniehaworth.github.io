@@ -10,6 +10,8 @@
 
 5. Add your changes to be committed: `git add <filename>`
 
-6. Commit your changes with a description: `git commit -m "Added a photo"`
+6. If you deleted any files: `git rm <filename>`
 
-7. Push your changes to GitHub: `git push origin master`
+7. Commit your changes with a description: `git commit -m "Added a photo"`
+
+8. Push your changes to GitHub: `git push origin master`

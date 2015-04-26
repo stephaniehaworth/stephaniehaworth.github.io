@@ -1,0 +1,126 @@
+/* ----------------------------------------
+
+Cheatsheet CSS
+Commonly used CSS properties and possible values
+
+---------------------------------------- */
+
+/* This is a comment. It won't show up on your page */
+
+/* This list is limited to basic CSS properties
+   For a full list, try exploring here: http://www.w3schools.com/cssref/
+   --------------------------------------------------------------------------*/
+
+div {
+
+  /*------------------------------------------------------
+  width and height of an element
+  possible values: pixel value, percentage, auto
+  --------------------------------------------------------*/
+  width: 100px;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+
+  /*------------------------------------------------------
+  margin- the space between the element and its neighbors
+  possible values: pixel value, percentage, auto
+  --------------------------------------------------------*/
+
+  margin: 20px; /* all sides 20px */
+  margin: 20px 10px; /* top/bottom 20px, left/right 10px */
+  margin: 20px 15px 10px 30px; /* top 20px, right 15px, bottom 10px, left 30px */
+  margin-top: 20px; /* top only */
+  margin-right: 20px; /* right only */
+  margin-bottom: 20px; /* bottom only */
+  margin-left: 10px; /* left only */
+
+  /*------------------------------------------------------
+  padding- the space inside an element
+  possible values: pixel value, percentage, auto
+  --------------------------------------------------------*/
+
+  padding: 20px; /* all sides 20px */
+  padding: 20px 10px; /* top/bottom 20px, left/right 10px */
+  padding: 20px 15px 10px 30px; /* top 20px, right 15px, bottom 10px, left 30px */
+  padding-top: 20px; /* top only */
+  padding-right: 20px; /* right only */
+  padding-bottom: 20px; /* bottom only */
+  padding-left: 10px; /* left only */
+
+  /*------------------------------------------------------
+  display- display behavior of the element
+  possible values: block, inline, inline-block
+
+  most elements are default block-level elements
+  elements that are default inline: img, a, span, em, strong
+  --------------------------------------------------------*/
+
+  display: block; /* sets element as block-level, allows all box-model properties */
+  display: inline; /* sets element as inline, allows some box-model properties */
+  display: inline-block; /* sets element as inline, but allows all box-model properties */
+
+  /*------------------------------------------------------
+  background- background of an element
+  --------------------------------------------------------*/
+
+  background-color: blue; /* possible values: color name, hex code, rgb value */
+  background-image: url('http://something.com/image.jpg'); /* path to an image file */
+  background-repeat: no-repeat; /* possible values: repeat, no-repeat, repeat-x, repeat-y */
+  background-position: left center; /* x-value then y-value; possible values: left, top, right, center, bottom, pixel value, percentage */
+  background: blue url('http://something.com/image.jpg') no-repeat 0 0; /* short-hand */
+
+  background-size: 50px 50px; /* width then height; possible values: pixel value, percentage, auto */
+
+  /*------------------------------------------------------
+  border- border on an element
+  --------------------------------------------------------*/
+
+  border-width: 1px; /* possible values: pixel value, percentage */
+  border-style: solid; /* possible values: solid, dotted, dashed, double, groove, ridge, inset, outset */
+  border-color: red; /* possible values: color name, hex code, rgb value */
+  border: 1px solid red; /* short-hand of the above properties */
+  border-top: 1px solid red; /* top only */
+  border-right: 1px solid red; /* right only */
+  border-bottom: 1px solid red; /* bottom only */
+  border-left: 1px solid red; /* left only */
+
+  /*------------------------------------------------------
+  border radius- rounded corners
+  possible values: pixel value, percentage
+  --------------------------------------------------------*/
+
+  border-radius: 10px; /* all corners 10px */
+  border-radius: 10px 20px; /* top-left/bottom-right 10px, top-right/bottom-left 20px */
+  border-radius: 10px 20px 30px 40px; /* top-left 10px, top-right 20px, bottom-right 30px, bottom-left 40px */
+  border-top-left-radius: 10px; /* top-left only */
+  border-top-right-radius: 10px; /* top-right only */
+  border-bottom-right-radius: 10px; /* bottom-right only */
+  border-bottom-left-radius: 10px; /* bototm-left only */
+
+  /*------------------------------------------------------
+  box-shadow- shadow for an element
+  --------------------------------------------------------*/
+
+  box-shadow: 2px 2px 5px black; /* 2px horiz offset, 2px vert offset, 5px blur, color black */
+  box-shadow: inset 2px 2px 5px black; /* an inset box-shadow */
+
+  /*------------------------------------------------------
+  typography- font information
+  --------------------------------------------------------*/
+
+  font-family: Helvetica, Arial, sans-serif; /* font stack, will use the first one available */
+  font-size: 14px; /* possible values: pixel value, percentage */
+  font-weight: normal; /* possible values: normal, bold, bolder, lighter, 300 */
+
+  line-height: 1.4; /* possible values: number, pixel value, percentage */
+
+  color: blue; /* possible values: color name, hex code, rgb value */
+
+  text-align: left; /* possible values: left, right, center, justify */
+  text-decoration: none; /* possible values: none, underline, overline, line-through */
+  text-transform: uppercase; /* possible values: none, capitalize, lowercase, uppercase */
+
+  text-shadow: 2px 2px 5px red; /* 2px horiz offset, 2px vert offset, 5px blur, color */
+
+}

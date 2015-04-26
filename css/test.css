@@ -6,3 +6,9 @@ Test CSS
 
 /* This is a comment. It won't show up on your page */
 
+/* Border box, adjusts box model to be easier to use */
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

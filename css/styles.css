@@ -6,3 +6,104 @@ Page CSS
 
 /* This is a comment. It won't show up on your page */
 
+/* Border box adjusts box model to be easier to use */
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Header styles */
+header {
+  padding: 40px 20px 40px 20px; /* top right bottom left; try changing some of the values */
+  /* this could also be written short-hand as padding: 40px 20px; */
+  background-color: salmon; /* colors can be names or hex codes like #f7f7f7 */
+  text-align: center; /* try changing 'center' to 'left' or 'right' */
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold; /* try changing 'bold' to 'normal' */
+}
+
+/* Any element with class='container' will get these styles */
+.container {
+  max-width: 500px;
+  margin: 0 auto; /* centers the section, this trick relies on there being a set width */
+  padding: 40px 20px;
+}
+
+/* All sections will get these styles */
+section {
+  background-color: white;
+}
+
+/* Only the intro section will get these styles */
+section.intro {
+  background-color: #eee; /* some hex codes can be shorteneed to 3 characters, this is the same as #eeeeee */
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 30px;
+  border: 8px solid lightgrey; /* try changing 'solid' to 'dashed' or 'dotted' */
+  display: block; /* images are naturally display: inline-block; */
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  font-weight: bold;
+  font-style: italic; /* try changing 'italic' to 'normal' */
+  color: teal;
+  text-decoration: none; /* anchors naturally have text-decoration: underline; */
+}
+
+/* Hover state for anchors */
+a:hover {
+  color: salmon;
+}
+
+ul {
+  padding-left: 40px;
+  list-style-type: disc; /* try changing 'disc' to 'circle' or 'square' */
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li.special {
+  padding: 3px 10px;
+  background-color: #eee; /* this can be a hex code or a named color */
+}
+
+/* Footer styles */
+footer {
+  padding: 30px;
+  background: #444;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  margin-bottom: 0; /* this cancels out the margin bottom set previously in the cascade */
+}

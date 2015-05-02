@@ -56,3 +56,7 @@ Uploads local commits to GitHub:
 ```
 git push origin <branch name>
 ```
+
+Further reference:
+- [Git Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+- [Git tutorials - Atlassian](https://www.atlassian.com/git/tutorials/)

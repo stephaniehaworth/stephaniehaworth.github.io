@@ -69,14 +69,12 @@ or a relative path:
 background-image: url(../images/image.png);
 ```
 ##### background image repeat
-should the background image repeat and how
 
 values: `repeat`, `no-repeat`, `repeat-x`, `repeat-y`
 ```
 background-repeat: no-repeat;
 ```
 ##### background image position
-where should the background image be positioned
 
 values: `top`, `bottom`, `left`, `right`, `center`, `pixel`, `percentage`
 ```
@@ -86,7 +84,6 @@ background-position: 30% bottom;
 background-position: center 40px;
 ```
 ##### background image size
-what size should the background image be
 
 values: `contain`, `cover`, `pixel`, `percentage`, `auto`
 ```
@@ -104,7 +101,6 @@ border: [width] [style] [color];
 border: 1px solid red;
 ```
 ##### border width
-how wide should the border be:
 
 values: `pixel`, `percentage`
 ```
@@ -112,14 +108,12 @@ border-width: 10%;
 border-width: 10px;
 ```
 ##### border style
-what style should the border have:
 
 values: `solid`, `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, `outset`
 ```
 border-style: solid;
 ```
 ##### border color
-what color should the border be:
 
 values: `color name`, `hex code`, `rgb`
 ```

@@ -50,13 +50,16 @@ display: [value];
 short hand first, with specific properties next:
 ```
 background: [color] [image] [repeat] [position];
+background: blue url(../images/image.png) no-repeat center center;
 ```
+##### background color
 values: `color name`, `hex code`, `rgb`, `transparent`
 ```
 background-color: #f7f7f7;
 background-color: blue;
 background-color: rgba(255,255,255);
 ```
+##### background image
 a background image can be an absolute path:
 ```
 background-image: url(http://website.com/image.png);
@@ -65,12 +68,14 @@ or a relative path:
 ```
 background-image: url(../images/image.png);
 ```
+##### background image repeat
 should the background image repeat and how
 
 values: `repeat`, `no-repeat`, `repeat-x`, `repeat-y`
 ```
 background-repeat: no-repeat;
 ```
+##### background image position
 where should the background image be positioned
 
 values: `top`, `bottom`, `left`, `right`, `center`, `pixel`, `percentage`
@@ -80,6 +85,7 @@ background-position: left top;
 background-position: 30% bottom;
 background-position: center 40px;
 ```
+##### background image size
 what size should the background image be
 
 values: `contain`, `cover`, `pixel`, `percentage`, `auto`
@@ -97,6 +103,7 @@ short hand:
 border: [width] [style] [color];
 border: 1px solid red;
 ```
+##### border width
 how wide should the border be:
 
 values: `pixel`, `percentage`
@@ -104,12 +111,14 @@ values: `pixel`, `percentage`
 border-width: 10%;
 border-width: 10px;
 ```
+##### border style
 what style should the border have:
 
 values: `solid`, `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, `outset`
 ```
 border-style: solid;
 ```
+##### border color
 what color should the border be:
 
 values: `color name`, `hex code`, `rgb`
@@ -118,6 +127,7 @@ border-color: #f7f7f7;
 border-color: blue;
 border-color: rgba(255,255,255);
 ```
+##### only certain borders
 you can also set a specific border:
 ```
 border-top: 1px solid red;
@@ -135,12 +145,18 @@ border-radius: [all corners];
 border-radius: [top-left/bottom-right] [top-right/bottom-left];
 border-radius: [top-left] [top-right] [bottom-right] [bottom-left];
 ```
+##### only certain corners
 you can also set a specific corner:
 ```
 border-top-left-radius: 10px;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 30px;
 border-bottom-left-radius: 40px;
+```
+##### circles
+if your element has the same width and height (square), you can turn that square into a circle by doing this:
+```
+border-radius: 50%;
 ```
 
 #### Box Shadow
@@ -152,64 +168,57 @@ box-shadow: inset 10px 10px 0 #444;
 ```
 
 #### Typography
-set the font to use
+sets the font to use
 
 this is a font stack. if the first in the list isn't available for the user, the next one in the list will be used and so on.
 ```
 font-family: Helvetica, Arial, sans-serif;
 ```
-specifiy the font size
-
+##### font size
 values: `pixel`, `percentage`, `em`, `rem`
 ```
 font-size: 16px;
 ```
-specify the font weight
-
+##### font weight
 values: `normal`, `bold`, `number`
 ```
 font-weight: normal;
 font-weight: 400;
 ```
-specify the line height (leading)
-
+##### line height (leading)
 values: `number`, `pixel`, `percentage`
 ```
 line-height: 1.4;
 line-height: 18px;
 ```
-color of the text
-
+##### text color
 values: `color name`, `hex code`, `rgb`
 ```
 color: blue;
 color: #bebebe;
 color: rgb(0,0,0);
 ```
-alignment of the text
-
+##### text alignment
 values: `left`, `right`, `center`, `justify`
 ```
 text-align: left;
 ```
-italicize text via style
-
+##### italics
 values: `normal`, `italic`, `oblique`
 ```
 font-style: italic;
 ```
-decorate the text
-
+##### text decoration
 values: `none`, `underline`, `overline`, `line-through`
 ```
 text-decoration: underline;
 ```
-transform the text
+##### capitalization
 values: `none`, `uppercase`, `lowercase`, `capitalize`
 ```
 text-transform: uppercase;
 ```
-text shadow
+##### text shadows
 ```
 text-shadow: [x-offset] [y-offset] [blur] [color];
 text-shadow: 2px 2px 5px red;

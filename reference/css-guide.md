@@ -18,6 +18,7 @@ min-height: 200px;
 
 #### Margin
 the space between an element and the surrounding elements
+
 values: `pixel`, `percentage`, `auto`
 ```
 margin: [all sides];
@@ -27,6 +28,7 @@ margin: [top] [right] [bottom] [left];
 
 #### Padding
 the space inside an element
+
 values: `pixel`, `percentage`, `auto`
 ```
 padding: [all sides];
@@ -36,7 +38,9 @@ padding: [top] [right] [bottom] [left];
 
 #### Display
 display behavior of an element; most elements are default `block`
+
 some are default `inline`: `img`, `a`, `span`, `em`, `strong`
+
 values: `block`, `inline`, `inline-block`
 ```
 display: [value];
@@ -62,18 +66,22 @@ or a relative path:
 background-image: url(../images/image.png);
 ```
 should the background image repeat and how
+
 values: `repeat`, `no-repeat`, `repeat-x`, `repeat-y`
 ```
 background-repeat: no-repeat;
 ```
 where should the background image be positioned
+
 values: `top`, `bottom`, `left`, `right`, `center`, `pixel`, `percentage`
+```
 background-position: [x-axis] [y-axis];
 background-position: left top;
 background-position: 30% bottom;
 background-position: center 40px;
 ```
 what size should the background image be
+
 values: `contain`, `cover`, `pixel`, `percentage`, `auto`
 ```
 background-size: cover;
@@ -90,17 +98,20 @@ border: [width] [style] [color];
 border: 1px solid red;
 ```
 how wide should the border be:
+
 values: `pixel`, `percentage`
 ```
 border-width: 10%;
 border-width: 10px;
 ```
 what style should the border have:
+
 values: `solid`, `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, `outset`
 ```
 border-style: solid;
 ```
 what color should the border be:
+
 values: `color name`, `hex code`, `rgb`
 ```
 border-color: #f7f7f7;
@@ -117,6 +128,7 @@ border-left: 1px solid yellow;
 
 #### Border radius
 makes rounded corners or circles
+
 values: `pixel`, `percentage`
 ```
 border-radius: [all corners];
@@ -141,27 +153,33 @@ box-shadow: inset 10px 10px 0 #444;
 
 #### Typography
 set the font to use
+
 this is a font stack. if the first in the list isn't available for the user, the next one in the list will be used and so on.
 ```
 font-family: Helvetica, Arial, sans-serif;
 ```
 specifiy the font size
+
 values: `pixel`, `percentage`, `em`, `rem`
 ```
 font-size: 16px;
 ```
 specify the font weight
+
 values: `normal`, `bold`, `number`
 ```
 font-weight: normal;
 font-weight: 400;
 ```
 specify the line height (leading)
+
 values: `number`, `pixel`, `percentage`
+```
 line-height: 1.4;
 line-height: 18px;
 ```
 color of the text
+
 values: `color name`, `hex code`, `rgb`
 ```
 color: blue;
@@ -169,16 +187,19 @@ color: #bebebe;
 color: rgb(0,0,0);
 ```
 alignment of the text
+
 values: `left`, `right`, `center`, `justify`
 ```
 text-align: left;
 ```
 italicize text via style
+
 values: `normal`, `italic`, `oblique`
 ```
 font-style: italic;
 ```
 decorate the text
+
 values: `none`, `underline`, `overline`, `line-through`
 ```
 text-decoration: underline;

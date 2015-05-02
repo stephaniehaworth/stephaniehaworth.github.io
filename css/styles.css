@@ -7,9 +7,8 @@ Page CSS
 /* This is a comment. It won't show up on your page */
 
 /* Border box adjusts box model to be easier to use */
+/* Always include this for consistency */
 *, *:after, *:before {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -22,23 +21,28 @@ body {
 
 /* Header styles */
 header {
-  padding: 40px 20px 40px 20px; /* top right bottom left; try changing some of the values */
-  /* this could also be written short-hand as padding: 40px 20px; */
-  background-color: salmon; /* colors can be names or hex codes like #f7f7f7 */
+  padding: 30px 20px 30px 20px; /* top right bottom left; try changing some of the values */
+  /* this could also be written short-hand as padding: 30px 20px; */
+  background-color: #d5265c; /* colors can be names or hex codes like #f7f7f7 */
   text-align: center; /* try changing 'center' to 'left' or 'right' */
   color: white;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold; /* try changing 'bold' to 'normal' */
+}
+
+h1 span {
+  font-weight: normal;
+  opacity: .8; /* try changing '.8' to '1' or '0' */
 }
 
 /* Any element with class='container' will get these styles */
 .container {
-  max-width: 500px;
+  max-width: 550px;
   margin: 0 auto; /* centers the section, this trick relies on there being a set width */
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 /* All sections will get these styles */
@@ -48,7 +52,11 @@ section {
 
 /* Only the intro section will get these styles */
 section.intro {
-  background-color: #eee; /* some hex codes can be shorteneed to 3 characters, this is the same as #eeeeee */
+  background-image: url('../images/bg-image2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
 }
 
 h2 {
@@ -58,31 +66,39 @@ h2 {
   text-align: center;
 }
 
-img {
-  max-width: 100%;
-  margin-bottom: 30px;
-  border: 8px solid lightgrey; /* try changing 'solid' to 'dashed' or 'dotted' */
-  display: block; /* images are naturally display: inline-block; */
-}
-
 p {
   margin-bottom: 20px;
 }
 
 a {
   font-weight: bold;
-  font-style: italic; /* try changing 'italic' to 'normal' */
   color: teal;
-  text-decoration: none; /* anchors naturally have text-decoration: underline; */
+  text-decoration: none; /* anchors by default have text-decoration: underline; */
 }
 
-/* Hover state for anchors */
-a:hover {
-  color: salmon;
+.button {
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  font-style: normal; /* try changing 'normal' to 'italic' */
+}
+
+.button:hover {
+  background-color: white;
+  color: #444;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 30px;
+  border: 8px solid lightgrey; /* try changing 'solid' to 'dashed' or 'dotted' */
+  display: block; /* images are by default display: inline; */
 }
 
 ul {
-  padding-left: 40px;
+  padding-left: 30px;
   list-style-type: disc; /* try changing 'disc' to 'circle' or 'square' */
 }
 
@@ -90,15 +106,14 @@ ul li {
   margin-bottom: 10px;
 }
 
-ul li.special {
-  padding: 3px 10px;
-  background-color: #eee; /* this can be a hex code or a named color */
+.center {
+  text-align: center;
 }
 
 /* Footer styles */
 footer {
-  padding: 30px;
-  background: #444;
+  padding: 50px;
+  background: black;
   font-size: 14px;
   text-align: center;
   color: white;

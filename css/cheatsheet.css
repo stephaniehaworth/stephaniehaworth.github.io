@@ -15,7 +15,7 @@ div {
 
   /*------------------------------------------------------
   width and height of an element
-  possible values: pixel value, percentage, auto
+    possible values: pixel value, percentage, auto
   --------------------------------------------------------*/
   width: 100px;
   max-width: 200px;
@@ -24,7 +24,7 @@ div {
 
   /*------------------------------------------------------
   margin- the space between the element and its neighbors
-  possible values: pixel value, percentage, auto
+    possible values: pixel value, percentage, auto
   --------------------------------------------------------*/
 
   margin: 20px; /* all sides 20px */
@@ -37,7 +37,7 @@ div {
 
   /*------------------------------------------------------
   padding- the space inside an element
-  possible values: pixel value, percentage, auto
+    possible values: pixel value, percentage, auto
   --------------------------------------------------------*/
 
   padding: 20px; /* all sides 20px */
@@ -50,10 +50,10 @@ div {
 
   /*------------------------------------------------------
   display- display behavior of the element
-  possible values: block, inline, inline-block
+    possible values: block, inline, inline-block
 
-  most elements are default block-level elements
-  elements that are default inline: img, a, span, em, strong
+    most elements are default block-level elements
+    elements that are default inline: img, a, span, em, strong
   --------------------------------------------------------*/
 
   display: block; /* sets element as block-level, allows all box-model properties */
@@ -87,7 +87,7 @@ div {
 
   /*------------------------------------------------------
   border radius- rounded corners
-  possible values: pixel value, percentage
+    possible values: pixel value, percentage
   --------------------------------------------------------*/
 
   border-radius: 10px; /* all corners 10px */

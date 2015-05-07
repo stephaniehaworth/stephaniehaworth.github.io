@@ -1,124 +1,15 @@
 /* ----------------------------------------
 
-Page CSS
+Test CSS
 
 ---------------------------------------- */
 
 /* This is a comment. It won't show up on your page */
 
-/* Border box adjusts box model to be easier to use */
+/* Border box, adjusts box model to be easier to use */
 /* Always include this for consistency */
 *, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-/* Body styles */
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-/* Header styles */
-header {
-  padding: 30px 20px 30px 20px; /* top right bottom left; try changing some of the values */
-  /* this could also be written short-hand as padding: 30px 20px; */
-  background-color: #d5265c; /* colors can be names or hex codes like #f7f7f7 */
-  text-align: center; /* try changing 'center' to 'left' or 'right' */
-  color: white;
-}
-
-h1 {
-  font-size: 20px;
-  font-weight: bold; /* try changing 'bold' to 'normal' */
-}
-
-h1 span {
-  font-weight: normal;
-  opacity: .8; /* try changing '.8' to '1' or '0' */
-}
-
-/* Any element with class='container' will get these styles */
-.container {
-  max-width: 550px;
-  margin: 0 auto; /* centers the section, this trick relies on there being a set width */
-  padding: 60px 20px;
-}
-
-/* All sections will get these styles */
-section {
-  background-color: white;
-}
-
-/* Only the intro section will get these styles */
-section.intro {
-  background-image: url('../images/bg-image2.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  color: white;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-a {
-  font-weight: bold;
-  color: teal;
-  text-decoration: none; /* anchors by default have text-decoration: underline; */
-}
-
-.button {
-  padding: 10px 20px;
-  display: inline-block;
-  border: 2px solid white;
-  border-radius: 3px;
-  color: white;
-  font-style: normal; /* try changing 'normal' to 'italic' */
-}
-
-.button:hover {
-  background-color: white;
-  color: #444;
-}
-
-img {
-  max-width: 100%;
-  margin-bottom: 30px;
-  border: 8px solid lightgrey; /* try changing 'solid' to 'dashed' or 'dotted' */
-  display: block; /* images are by default display: inline; */
-}
-
-ul {
-  padding-left: 30px;
-  list-style-type: disc; /* try changing 'disc' to 'circle' or 'square' */
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-.center {
-  text-align: center;
-}
-
-/* Footer styles */
-footer {
-  padding: 50px;
-  background: black;
-  font-size: 14px;
-  text-align: center;
-  color: white;
-}
-
-footer p {
-  margin-bottom: 0; /* this cancels out the margin bottom set previously in the cascade */
 }

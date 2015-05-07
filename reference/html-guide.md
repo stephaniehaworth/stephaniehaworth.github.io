@@ -85,8 +85,3 @@ HTML Comments:
 ```
 <!-- comments look like this -->
 ```
-
-Further reference:
-- [HTML tags list - w3schools.com](http://www.w3schools.com/tags/default.asp)
-- [HTML tutorials - w3schools.com](http://www.w3schools.com/html/)
-- [HTML Basics - codecademy.com](http://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1?curriculum_id=50579fb998b470000202dc8b)

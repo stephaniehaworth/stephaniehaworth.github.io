@@ -230,10 +230,3 @@ CSS Comments:
 ```
 /* css comments look like this */
 ```
-
-Further reference:
-- [CSS reference - w3schools.com](http://www.w3schools.com/cssref/default.asp)
-- [CSS tutorials - w3schools.com](http://www.w3schools.com/css/default.asp)
-- [CSS tutorials - codecademy.com](http://www.codecademy.com/courses/css-coding-with-style/0/1)
-
-- [CSS color names](http://colours.neilorangepeel.com/)

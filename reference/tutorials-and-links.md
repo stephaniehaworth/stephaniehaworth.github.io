@@ -5,6 +5,7 @@
 - [Git-it - tutorials by Jessica Lord](http://jlord.us/git-it/)
 - [Version control with Git made easy - by Tower](http://www.git-tower.com/learn/git/videos/)
 - [GitHub Training - github.com](https://training.github.com/kit/)
+- [GitHub Pages](https://pages.github.com/)
 
 ## HTML
 
@@ -21,3 +22,7 @@
 - [Learn advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)
 - [CSS Diner - visual learning for CSS selectors](http://flukeout.github.io/)
 - [CSS Colors - list of named colors in CSS](http://colours.neilorangepeel.com/)
+
+## Other
+
+- [Codepen.io - examples and inspiration](http://codepen.io/)
